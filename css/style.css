@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    width: 150px;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    margin: 0;
+    width: 100%;
+    background-color: #F3F3F3;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px rgb(104, 195, 255) solid;
+    position: fixed;
+    z-index: 99;
+    
+}
+.nav__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   
+}
+.nav__menu__element {
+    flex: 1 1 auto;
+    text-align: center;
+}
+.nav__menu__element li {
+    margin: 6px 0;
+}
+
+.nav__menu__element button {
+    border: 2px solid black;
+    background-color: inherit;
+    color: black;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color:  rgb(104, 195, 255);
+    color: black;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+}
+.nav__menu__element button:hover {
+    background-color: rgb(104, 195, 255);
+    color: white;
+}
+.nav__menu__element a {
+    color:rgb(104, 195, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav__menu__element a:hover {
+    color:rgb(2, 100, 165);
+}
+.hi {
+    margin-top: 120px;
+}
+.content {
+    padding: 0;
+    flex: 1 1 auto;
+}
+    /* Carousel */
+
+.carousel-image {
+    max-height: 550px;
+}
+
+.carousel-caption {
+    position: absolute;
+    margin: auto 0;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+}
+
+
+.title {
+    text-align: center;
+    color: black;
+}
+.sections-container {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    display: flex;
+    max-width: 150px;
+    margin: 0 30px;
+    
+}
+.section-text {
+    letter-spacing: 0;
+    line-height: 1.1;
+    margin-top: 10px;
+}
+.section-image {
+    height: 60px;
+    margin: 0 5px;
+}
+
+
+
+                    /* About */
+
+.about__company {
+    margin: 30px 0 0 0px;
+    background-image: url("../images/scales.jpg");
+    background-position: 300px -140px;
+    box-shadow: 10px 0 0 0 (black);
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+.about__body {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.about__title h5 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about__info {
+    display: flex;
+}
+.about__info__icons {
+    display: flex;
+    flex-direction: column;
+}
+.about__info__image {
+    height: 20px;
+    margin: 10px 0;
+}
+
+.about__info__questions {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.about__info__questions p {
+    font-size: 20px;
+    margin: 5px 0;
+    letter-spacing: 0;
+}
+.about__info__text {
+    margin: 35px 0;
+    text-align:justify;
+    width: 700px;
+    font-size: 20px;
+}
+.about__info__text>p {
+    letter-spacing: 0;
+    
+}
+
+                    /* Chose */
+
+.chose {
+    background-image: url("../images/themis.jpg");
+    background-attachment: fixed;
+background-size: cover;
+    /* background-position: -90px 0px; */
+
+}
+.chose p {
+    color: white;
+}
+.chose__top {
+    background: rgba(0, 0, 0, 0.4);
+    height: 350px;
+}
+
+.chose__top__panel {
+    display: flex;
+    align-items: center;
+    height: 330px;
+}
+.chose__top__panel>.el {
+  text-align: center;
+}
+.chose__middle {
+    text-align: center;
+    height: 300px;
+}
+.chose__middle h5 {
+    padding: 100px 0 70px 0;
+}
+.chose__middle>h5>span {
+    color: rgb(104, 195, 255);
+}
+.chose__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.chose__bottom__el {
+    height: 284px;
+    width: 353px;
+    margin: 50px 0;
+    text-align: center;
+    padding: 30px 15px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.chose__bottom__el p {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    letter-spacing: none;
+    
+}
+.chose__bottom__el h5 {
+    margin-bottom: 15px;
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    letter-spacing: none;
+}
+
+.material-icons {
+    margin: 15px 0;
+    color: white;
+    font-size: 40px;
+  font-weight: 100px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.how__work__text>h5 {
+    color: #282D3C;
+    text-align: center;
+    margin: 80px 0;
+    font-size: 40px;
+}
+.how__work__text>h5>span {
+    color: rgb(104, 195, 255);
+}
+.how__work__sections {
+    display: flex;
+    justify-content: center;
+}
+
+.how__work__section {
+    margin: 20px 0;
+    background-color: blue;
+    height: 408px;
+    width: 367px;
+    padding: 30px 25px;
+    text-align: center;
+}
+.how__work__section>h5 {
+    font-size: 30px;
+    letter-spacing: 0;
+    font-weight: lighter;
+    margin: 40px 0 50px 0;
+}
+.how__work__section>p {
+    font-size: 18px;
+    letter-spacing: 0;
+    font-weight: lighter;
+    color: white;
+}
+.how__work__section>h6 {
+    text-align: right;
+    color: white;
+    font-size: 50px;
+}
+
+
+.how__work__section.left {
+    background-color: #282D3C;
+}
+.how__work__section.middle {
+    background-color: #2F5469;
+}
+.how__work__section.right {
+    background-color: #37AFC7;
+}
+
+ .footer {
+     background-color: #f5f5f5;
+ }
+.law__trees__panel {
+    background-color: #D9ECF4;
+}
+.law__trees{
+    display: flex;
+}
+.law__tree{
+    width: 353;
+
+}
+
+ .footer__row {
+     display: flex;
+     height: 65px;
+     justify-content: center;
+     align-items: center;
+ }
+ 
