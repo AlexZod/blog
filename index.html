@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -38,54 +37,43 @@
                 </div>
             </header>
             <div class="hi">
-                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                      </ol>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                      <div class="video__container">
                         <video class="video" loop="loop" autoplay="" muted="">
                             <source src="images/video.mp4" type="video/mp4" />
                           </video>
-                          
                      </div>
                     <div class="carousel-inner">
-                      <div class="carousel-item active carousel-slide">
-                        <!-- <img src="images/img1.jpg" class="carousel-image d-block w-100" alt="..."> -->
-                        <div class="carousel-caption d-block carousel-text">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <div class="carousel-caption d-none d-md-block">
                             <h5>УВАЖЕНИЕ</h5>
                             <span>ЧЕСТНОСТЬ И ПРОЗРАЧНОСТЬ</span>
                             <p>ЗА МНОГИЕ ГОДЫ НАШЕЙ ПРАВОВОЙ ПРАКТИКИ МЫ ДОСТИГЛИ ТЕХ ПОКАЗАТЕЛЕЙ, КОТОРЫЕ ОБЕСПЕИВАЮТ ПРЕВОСХОДНЫЕ ОТНОШЕНИЯ С КАЖДЫМ КЛИЕНТОМ </p>
                           </div>
                       </div>
-                      <div class="carousel-item carousel-slide">
-                        <!-- <img src="images/img2.jpg" class="carousel-image d-block w-100" alt="..."> -->
+                      <div class="carousel-item" data-bs-interval="3000">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>КОМПЕТЕНЦИЯ</h5>
                             <span>ПРОФЕССИОНАЛЬНЫЕ ПРАВОВЫЕ РЕШЕНИЯ</span>
                             <p>УЧИТЫВАЯ НАКОПЛЕННЫЙ ОПЫТ, НАШ ЮРИДИЧЕСКИЙ ЦЕНТР ПОМОГАЕТ РЕШАТЬ САМЫЕ СПОРНЫЕ ВОПРОСЫ В ЛЮБОЙ СФЕРЕ, ДОСТИГАЯ ПОСТАВЛЕННЫЕ ЦЕЛИ</p>
                           </div>
                       </div>
-                      <div class="carousel-item carousel-slide">
-                        <!-- <img src="images/img3.jpg" class="carousel-image d-block w-100" alt="..."> -->
+                      <div class="carousel-item" data-bs-interval="3000">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>ПРАВОВАЯ СИЛА</h5>
                             <span>ЗАЩИТА НАШИХ КЛИЕНТОВ</span>
                             <p>ОСНОВЫВАЯС НА НАШЕМ ГЛУБОЧАЙШЕМ ОПЫТЕ И ПОЛНОЙ ОСВЕДОМЛЕННОСТИ В ПОСТОЯННО ИЗМЕНЯЕМЫХ ЗАКОНАХ, ЮЦ "ПРАВОВОЕ ДВИЖЕНИЕ" ОБЕСПЕЧИВАЕТ ВАМ 100% ЗАЩИТУ</p>
                           </div>
                       </div>
-
-                        <!-- <img src="images/img4.jpg" class="carousel-image d-block w-100" alt="..."> -->
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="visually-hidden">Предыдущий</span>
+                      </button>
+                      <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
+                        <span class="visually-hidden">Следующий</span>
+                      </button>
                   </div>
                   <div class="sections-container">
                  <div class="container">
@@ -448,8 +436,7 @@
             </div>
         </footer>
     </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -26,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px;
+    margin-top: 2px;
 }
 .nav__menu__element {
     flex: 1 1 auto;
@@ -37,7 +38,7 @@ body {
 }
 .nav__menu__element li>span {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .nav__menu__element button {
@@ -67,6 +68,7 @@ body {
 .hi {
     margin-top: 120px;
 }
+
 .content {
     padding: 0;
     flex: 1 1 auto;
@@ -77,6 +79,7 @@ body {
   height: 600px;
   overflow: hidden;
 }
+
 .video__container {
     position:absolute;
     max-height: 600px;
@@ -84,21 +87,20 @@ body {
     width: 100%;
    
 }
-
-
 .carousel-caption {
     position: absolute;
-    margin: 0 200px 200px 0;
+    left: 10%;
+    top: 20%;
     z-index: 20;
     color: white;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     text-align: left;
-
 }
 .carousel-caption h5 {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bolder;
 }
+
 .carousel-caption span {
     font-size: 32px;
     font-weight: bold;
@@ -107,9 +109,12 @@ body {
 }
 .carousel-caption p {
     font-size: 18px;
+    margin-top: 15px;
 }
-
-
+.carousel-btn {
+    background-color:transparent;
+    border: none;
+}
 
 .title {
     text-align: center;
@@ -210,7 +215,7 @@ body {
                     /* Chose */
 
 .chose {
-    background-image: url("../images/themis.jpg");
+    background-image: url("../images/themis2.jpeg");
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -385,7 +390,12 @@ ul{
     background-size: cover;
     height: 730px;
     background-attachment: fixed;
-    background-position: -380px 50px;
+    background-position: 90% 10%;
+}
+@media (min-width: 500px) {
+    .consultation {
+        background-position: 40% 10%;
+    }
 }
 .consultation__row {
     margin: 50px 0;
