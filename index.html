@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -37,37 +38,54 @@
                 </div>
             </header>
             <div class="hi">
-                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
+                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+                     <div class="video__container">
+                        <video class="video" loop="loop" autoplay="" muted="">
+                            <source src="images/video.mp4" type="video/mp4" />
+                          </video>
+                          
+                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active carousel-slide">
-                        <img src="images/img1.jpg" class="carousel-image d-block w-100" alt="...">
+                        <!-- <img src="images/img1.jpg" class="carousel-image d-block w-100" alt="..."> -->
                         <div class="carousel-caption d-block carousel-text">
-                          <h5>First slide label</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
-                        </div>
+                            <h5>УВАЖЕНИЕ</h5>
+                            <span>ЧЕСТНОСТЬ И ПРОЗРАЧНОСТЬ</span>
+                            <p>ЗА МНОГИЕ ГОДЫ НАШЕЙ ПРАВОВОЙ ПРАКТИКИ МЫ ДОСТИГЛИ ТЕХ ПОКАЗАТЕЛЕЙ, КОТОРЫЕ ОБЕСПЕИВАЮТ ПРЕВОСХОДНЫЕ ОТНОШЕНИЯ С КАЖДЫМ КЛИЕНТОМ </p>
+                          </div>
                       </div>
                       <div class="carousel-item carousel-slide">
-                        <img src="images/img2.jpg" class="carousel-image d-block w-100" alt="...">
+                        <!-- <img src="images/img2.jpg" class="carousel-image d-block w-100" alt="..."> -->
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                            <h5>КОМПЕТЕНЦИЯ</h5>
+                            <span>ПРОФЕССИОНАЛЬНЫЕ ПРАВОВЫЕ РЕШЕНИЯ</span>
+                            <p>УЧИТЫВАЯ НАКОПЛЕННЫЙ ОПЫТ, НАШ ЮРИДИЧЕСКИЙ ЦЕНТР ПОМОГАЕТ РЕШАТЬ САМЫЕ СПОРНЫЕ ВОПРОСЫ В ЛЮБОЙ СФЕРЕ, ДОСТИГАЯ ПОСТАВЛЕННЫЕ ЦЕЛИ</p>
+                          </div>
                       </div>
                       <div class="carousel-item carousel-slide">
-                        <img src="images/img3.jpg" class="carousel-image d-block w-100" alt="...">
+                        <!-- <img src="images/img3.jpg" class="carousel-image d-block w-100" alt="..."> -->
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                            <h5>ПРАВОВАЯ СИЛА</h5>
+                            <span>ЗАЩИТА НАШИХ КЛИЕНТОВ</span>
+                            <p>ОСНОВЫВАЯС НА НАШЕМ ГЛУБОЧАЙШЕМ ОПЫТЕ И ПОЛНОЙ ОСВЕДОМЛЕННОСТИ В ПОСТОЯННО ИЗМЕНЯЕМЫХ ЗАКОНАХ, ЮЦ "ПРАВОВОЕ ДВИЖЕНИЕ" ОБЕСПЕЧИВАЕТ ВАМ 100% ЗАЩИТУ</p>
+                          </div>
                       </div>
-                      <div class="carousel-item carousel-slide">
-                        <img src="images/img4.jpg" class="carousel-image d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                      </div>
+
+                        <!-- <img src="images/img4.jpg" class="carousel-image d-block w-100" alt="..."> -->
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                   </div>
                   <div class="sections-container">
                  <div class="container">
@@ -78,53 +96,53 @@
                             </div>
                             <div class="sections">
                                 <div class="first-section section">
-                                    <img class="section-image" src="images/debt.png" alt="debt">
+                                    <img class="section-image" src="images/icons/1.PNG" alt="debt">
                                     <p class="section-text">Долги и кредиты</p>
                                 </div>
                                 <div class="second-section section">
 
-                                    <img class="section-image " src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image " src="images/icons/2.PNG" alt="debt">
+                                    <p class="section-text">Трудовые споры</p>
                                 </div>
                                 <div class="third-section section">
                
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/3.PNG" alt="debt">
+                                    <p class="section-text">Семейное право</p>
                                 </div>
                                 <div class="four-section section">
                              
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/4.PNG" alt="debt">
+                                    <p class="section-text">Помощь военным</p>
                                 </div>
                                 <div class="five-section section">
                         
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/5.PNG" alt="debt">
+                                    <p class="section-text">Услуги для юр. лиц</p>
                                 </div>
                                 <div class="six-section section">
                           
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/6.PNG" alt="debt">
+                                    <p class="section-text">Защита прав потребителей</p>
                                 </div>
                                 <div class="seven-section section">
                               
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/7.PNG" alt="debt">
+                                    <p class="section-text">Наследство и недвижимость</p>
                                 </div>
                                 <div class="eight-section section">
                                   
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/8.png" alt="debt">
+                                    <p class="section-text">Помощь при ДТП</p>
                                 </div>
                                 <div class="nine-section section">
                                   
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/9.PNG" alt="debt">
+                                    <p class="section-text">Банкротство</p>
                                 </div>
                                 <div class="ten-section section">
                                   
-                                    <img class="section-image" src="images/debt.png" alt="debt">
-                                    <p class="section-text">Долги и кредиты</p>
+                                    <img class="section-image" src="images/icons/10.PNG" alt="debt">
+                                    <p class="section-text">Уголовное право</p>
                                 </div>
                             </div>
                         </div>
@@ -363,56 +381,74 @@
                     <div class="footer__columns">
                         <div class="footer__column">
                             <div class="footer__column__el">
-                                <div>
-                                    <img src="images/small_scale.png" alt="">
+                                <div class="column__el__scales">
+                                    <img src="images/small_scales.png" alt="">
+                                </div>
+                                <div class="column__el__heading">
+                                    <h5><span>ПРАВОВОЕ</span> ДВИЖЕНИЕ</h5>
                                 </div>
 
-                                <h6><span>ПРАВОВОЕ</span> ДВИЖЕНИЕ</h6>
                             </div>
-                            <p>Положение</p>
-                            <p>Согласие</p>
+                            <a class="el__heading__ref" href="#">Положение</a>  
+                            <a class="el__heading__ref" href="#">Согласие</a>
                             <div class="footer__logos">
                                 <img src="images/visamaster.png" alt="visa mastercard logo's">
                                 <img src="images/webmoney.png" alt="">
                                 <img src="images/paypal.png" alt="">
                             </div>
+                            <ul class="footer__requisites">
+                                <li>ОГРН: 123456789908</li>
+                                <li>ИНН: 1234567889</li>
+                                <li>КПП: 123987562</li>
+                            </ul>
+                            <button class="footer__btn">Тест на банкротство</button>
       
                         </div>
                         <div class="footer__column">
                             <h6>Наш сервис</h6>
-                            <a href="#">О компании</a>
-                            <a href="#">Наши услуги</a>
-                            <a href="#">Блог и СМИ</a>
-                            <a href="#">Контакты и реквизиты</a>
+                            <ul>
+                               <li><a href="#">О компании</a></li> 
+                               <li><a href="#">Наши услуги</a></li> 
+                               <li><a href="#">Блог и СМИ</a></li> 
+                               <li><a href="#">Контакты и реквизиты</a></li> 
+                            </ul>
                         </div>
                         <div class="footer__column">
                             <h6>Наши услуги</h6>
-                            <a href="#">Долги и кредиты</a>
-                            <a href="#">Трудовые споры</a>
-                            <a href="#">Семейное право</a>
-                            <a href="#">Наследство и недвижимость</a>
-                            <a href="#">Права потребителей</a>
-                            <a href="#">Помощь военным</a>
-                            <a href="#">Банкротство</a>
-                            <a href="#">Услуги для юр.лиц</a>
+                            <ul>
+                                <li><a href="#">Долги и кредиты</a></li>    
+                                <li><a href="#">Трудовые споры</a></li> 
+                                <li><a href="#">Семейное право</a></li> 
+                                <li><a href="#">Наследство и недвижимость</a></li>  
+                                <li><a href="#">Права потребителей</a></li>
+                                <li><a href="#">Помощь военным</a></li>
+                                <li><a href="#">Банкротство</a></li>
+                                <li><a href="#">Услуги для юр.лиц</a></li>
+                            </ul>
+
                         </div>
-                        <div class="footer__column">
-                            <a href="#">Выбрать город</a>
-                            <span>+7 (927) 170 87 00</span>
+                        <div class="footer__column">    
+                            <h6>Обратная связь</h6>
+                            <a href="#">Выбрать город</a> <br>
+                            <span class="footer__tel">+7 (927) 170 87 00</span>
                             <p>с 9:00 до 18:00 Пн-Пт</p>
-                            <button>Обратный звонок</button>
-                            <div class="subscribe">
+                            <button class="footer__btn">Обратный звонок</button>
+                            <div class="subscribe footer__logos">
                                 <img src="images/vk.png" alt="vk">
                                 <img src="images/instagram.png" alt="instagram">
+                                <span>Подписывайтесь на нас!</span>
                             </div>
                         </div>
-                        <p>Алексей Глухов © 2021</p>
                     </div>
+                </div>
+                <hr>
+                <div class="made__by">
+                    <p>Алексей Глухов © 2021</p>
                 </div>
             </div>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
